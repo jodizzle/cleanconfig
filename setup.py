@@ -11,7 +11,7 @@ setup(
     author='David McClure',
     author_email='dclure@mit.edu',
     url='https://github.com/davidmcclure/cleanconfig',
-    packages=find_packages(),
+    py_modules=['cleanconfig'],
     license='MIT',
     install_requires=[
         'anyconfig',
